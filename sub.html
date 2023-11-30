@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>W컨셉(W CONCEPT)</title>
+    <link href="css/reset.css"  rel="stylesheet">
+    <link href="css/sub.css"  rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <script src="./js/json.js"></script>
+    
+</head>
+
+<body>
+<!--헤더-->
+<header>
+    <div id="header_box1"><a href="index.html"><img src="img/banner_top.jpg" alt="상단배너"></a></div>
+    <div id="header_box2"><a href="index.html">
+        <div id="header_box2-1"><img src="img/logo.svg" alt="로고"></a></div>
+
+        <div id="header_box2-2">
+            <div>
+                <img src="img/join.svg" alt="">
+                <span>JOIN</span>
+            </div>
+            <div>
+                <img src="img/login.svg" alt="">
+                <span>LOGIN</span>
+            </div>
+            <div>
+                <img src="img/my.svg" alt="">
+                <span>MY</span>
+            </div>
+            <div>
+                <img src="img/0.svg" alt="">
+                <span>0 </span>
+            </div>
+        </div>
+
+        <div id="header_box2-3">
+            <input type="text" placeholder="썸머 마지막 '클리어런스'세일을 검색하세요.">
+                <div class="imgbox"><img src="img/magnifier.png"alt=""></div>
+            <hr>
+        </div>
+    </div>    
+    <nav>
+        <div class="main_menu">
+            <ul class="menu">
+                <li><a href="sub.html">WOMAN</a>
+                    <ul class="sub">
+                        <li><a href="sub.html">아우터</a></li>
+                        <li><a href="sub.html">원피스</a></li>
+                        <li><a href="sub.html">블라우스</a></li>
+                        <li><a href="sub.html">셔츠</a></li>
+                        <li><a href="sub.html">티셔츠</a>
+                        <li><a href="sub.html">니트</a>
+                        <li><a href="sub.html">스커트</a>
+                        <li><a href="sub.html">팬츠</a>
+                        <li><a href="sub.html">데님</a>
+                    </ul>    
+                </li>
+                <li><a href="sub.html">MAN</a>
+                    <ul class="sub">
+                        <li><a href="sub.html">아우터</a></li>
+                        <li><a href="sub.html">셔츠</a></li>
+                        <li><a href="sub.html">슈즈</a></li>
+                        <li><a href="sub.html">ACC</a></li>
+                    </ul>     
+                </li>
+        
+                <li><a href="sub.html">BEAUTY</a>
+                    <ul class="sub">
+                        <li><a href="sub.html">스킨토너</a></li>
+                        <li><a href="sub.html">메이크업</a></li>
+                        <li><a href="sub.html">헤어&바디</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="sub.html">LIFE</a>
+                    <ul class="sub">
+                        <li><a href="sub.html">홈</a></li>
+                        <li><a href="sub.html">트래블</a></li>
+                        <li><a href="sub.html">디지털</a></li>
+                        <li><a href="sub.html">컬쳐</a></li>
+                        <li><a href="sub.html">푸드</a></li>
+                    </ul>
+
+                <li><a href="sub.html">|　　　DESIGNER　</a></li>
+                <li><a href="sub.html">PRE_SHOW</a></li>
+                <li><a href="sub.html">EVENT</a></li>
+                <li><a href="sub.html">BEST</a></li>
+            </ul>
+        </div>
+    </nav>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+
+    <script>
+        $(function () {
+            $('.menu > li').mouseover(function () {
+                $(this).children('.sub').stop().slideDown();
+            }).mouseout(function () {
+                $('.sub').stop().slideUp();
+            });
+        });
+    </script>
+
+</header>
+
+
+<!--상단 메뉴바-->  
+    <div id="sub">
+        <div id="submenu">
+            <ul class="location">
+                <li>HOME</li>
+                <li>WOMEN</li>
+                <li>BAG</li>
+                <li>크로스백</li>
+                <li>크로스백</li>
+            </ul>
+        </div>
+        <div id="contents1">
+<!--콘텐츠(왼쪽)--> 
+            <div class="main_imgbox">
+                <img src="img/joygryson_main.jpg" alt="">            
+                <div class="bottom_imgbox">
+                    <img src="img/joygryson_main.jpg" alt="">
+                    <img src="img/sub/bottom_imgbox2.jpg" alt="">
+                    <img src="img/sub/bottom_imgbox3.jpg" alt="">
+                    <img src="img/sub/bottom_imgbox4.jpg" alt="">
+                    <img src="img/sub/bottom_imgbox5.jpg" alt="">
+                </div>       
+                
+                <div class="about">
+                    <div class="event">
+                        <div class="box11">관련기획전</div>
+                        <ul>
+                            <li>-STYLE FOCUS -JOY GRYSON</li>
+                            <li>-MINTHLY BAG HAUL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+<!--콘텐츠(오른쪽)--> 
+            <div class="main_textbox">
+                <div class="textbox1">
+                    <div class="brand"><a href="#">JOY GRYSON</a>
+                        <div class="my_brand">
+                            <em>MY</em>
+                            <em><img src="img/sub/heart.png" alt="하트"></em>
+                            <em>BRAND</em>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product1">
+                            <a href="#">[기간한정][~8/7까지]|[세이지그린_7/19 예약배송] </a>
+                            
+                        </div>
+                        <div class="product2">
+                            <a href="#">세렌디피티 마이크로백 LW3SA1710_3COLOR</a>
+                            <div class="share"><img src="img/sub/share.png" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="star">
+                        <div class="icon"><img src="img/sub/star.png" alt=""></div>
+                    </div>
+
+                    <div class="text1">
+                        <em>5</em>
+                    </div>
+
+                    <div class="review">
+                        <p><span>96</span>개  리뷰</p>
+                    </div>
+
+                    <div class="price">
+                        <dl class="price_item">
+                            <dt class="item1">정상가</dt>
+                            <dd class="item2"><p>258,000</p><span>원</span></dd><br>
+                            <dt class="item3">할인적용가</dt>
+                                <div class=iconbox><img src="img/sub/question.png" alt=""></div>
+                            <dd class="item4"><p>215,000</p><span>원</span></dd>
+                        </dl>
+                        <button type="button">쿠폰받기<img src="img/sub/download.png" alt=""></button>
+                    </div>
+
+                    <div class="benefit">
+                        <dl>
+                            <div class="benefit1">
+                                <dt class="item1">신규회원 혜택가</dt>
+                                <dd class="item2">197,370원 <span>신규가입시 10% 쿠폰 즉시 지급</span></dd>
+                            </div>
+                            <div class="benefit2">
+                                <dt class="item3">추가혜택가</dt>
+                                <div class="benefit_btn">추가혜택 더보기 ></div>
+                                <dd class="item4"><p>kakaopay 할인적용가<span>4,000원</span> 할인
+                                <br>매일 오전 10시 부터 선착순 450명,4천원 즉시할인</p>
+                            </div>                           
+                        </dl>
+                    </div>
+
+                    <div class="card_info">
+                        <table>
+                            <tr>
+                                <td class="card1">무이자 할부</td>
+                                <td >최대 6개월(36,550원 X 6개월)
+                                    <button class="btn1"><span>카드안내</span></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="card1">포인트 적립</td>
+                                <td>2,193p 적립
+                                    <button class="btn2">포인트 안내   
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td class="card1">쇼핑가이드</td>
+                                <td>
+                                    <button class="btn3">쿠폰</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="option">
+                        <span>사이즈 가이드 ></span>
+                        <div class="option1"><span>색상</span></div>
+                        <div class="option2">
+                            <select>
+                                <option class="title">선택해 주세요.</option>
+                                <option>BLACK</option>
+                                <option>SAGE GREEN</option>
+                                <option>WOOD BROWN</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="grup">
+                        <ul>
+                            <li><div class="grup1">바로구매</div></li>
+                            <li><div class="grup2">쇼핑백 담기</div></li>
+                            <li>
+                                <div class="grup3">
+                                    <img src="img/sub/gift.svg" alt="">
+                                <br>선물하기</div>
+                            </li>
+                            <li>
+                                <div class="grup4">
+                                    <img src="img/sub/ico_heart.svg" alt="">
+                                <br>4,200</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <table class="cottonusa">
+                            <th>상품 요약 정보</th>
+                            <tr >
+                                <td>▪상품코드</td> <td>302243339</td>
+                            </tr>
+                            <tr>
+                                <td>▪소재</td> <td>(원판)이태리 소가죽/(안감)면트윌</td>
+                            </tr>
+                            <tr>
+                                <td>▪제조사/원산지</td> <td>(주)이터널그룹 / CHINA</td>
+                            </tr>
+                            <tr>
+                                <td>▪배송비</td> <td>30,000원 미만구매시 배송비 2,500원<br>(제주:5,100원/도서산간"5,100원)추가</td>
+                            </tr>
+                            <tr> <td>▪배송정보</td> <td>결제완료 후 평균 3일 이내 출고(공휴일 제외)</td>
+                            </tr>
+                        </table>
+                    </div>                
+                </div>
+            </div>
+
+<!--메인 콘텐츠(하단)-->
+            <div class="pdt_side">
+                <div class="pdt1">
+                    <h4>More by JOY GRYSON</h4>
+                    <div class="iconbox"><img src="img/sub/bg-plus.gif"></div>
+                </div>
+
+                <div class="pdt2">
+                    <ul>
+                        <li><img src="img/sub/pdt2_1.png" alt=""></li> 
+                        <li><img src="img/sub/pdt2_2.png" alt=""></li> 
+                        <li><img src="img/sub/pdt2_3.jpg" alt=""></li> 
+                        <li><img src="img/sub/pdt2_4.jpg" alt=""></li> 
+                        <li><img src="img/sub/pdt2_5.jpg" alt=""></li> 
+                        <li><img src="img/sub/pdt2_6.jpg" alt=""></li> 
+                        <li><img src="img/sub/pdt2_7.jpg" alt=""></li> 
+                        <li><img src="img/sub/pdt2_8.png" alt=""></li>
+                    </ul>
+                </div>
+                
+                    <ul class="tab_item4">
+                        <li><a>DETAIL</a></li>
+                        <li><a>REVIEW(96)</a></li>
+                        <li><a>Q&A(35)</a></li>
+                        <li><a>RETURN & DELIVERY</a></li>
+                    </ul>
+                    <hr>
+
+                <div class="marketing">
+                    <div class="imgbox1">
+                        <img src="img/sub/joy_intro.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="noti">
+                    <h4>상품 정보 고시</h4>
+                    <table>
+                        <colgroup>
+                            <col style="width:20%">
+                        </colgroup>
+                        <tr>
+                            <td class="table1">소재</td> <td>(원판)이태리 소가죽 / (안감)면트윌</td>
+                        </tr>
+
+                        <tr>
+                            <td class="table1">색상</td> <td>WOOD BROWN</td>
+                        </tr>
+
+                        <tr>
+                            <td class="table1">제조자(수입자)</td><td>내용없음</td>
+                        </tr>
+
+                        <tr>
+                            <td class="table1">제조국(원산지)</td>
+                            <td>중국</td>
+                        </tr>
+                    </table>
+                    <p>본 상품 정보 및 거래 조건의 내용은 판매자가 직접 등록한 것으로서 등록된 정보에 대한 책임은 판매자에게 있습니다.</p>
+                    <button>
+                        <span>
+                            상품 정보 고시 더보기</span>                       
+                    </button>
+                </div>
+
+                <div class="item_6box">
+                    <h4>You may also like</h4>
+                    <ul>
+                        <li>
+                            <div class="img_box"><img src="img/sub/itembox_1.jpg" alt=""></div>
+                            <div class="text_box">
+                                <div class="brandN">LEMEME</div>
+                                <div class="multiline">[단독]Aac Micro Nouvelle 4colors</div>
+                                <div class="price1">
+                                    <span class="discount">238,000</span>
+                                    <span class="base">250,000</span>
+                                    <sapn class="rate">10%</sapn>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_box"><img src="img/sub/itembox_2.jpg" alt=""></div>
+                            <div class="text_box">
+                                <div class="brandN">ndearose</div>
+                                <div class="multiline">[단독]Petite Eva bag_5color</div>
+                                <div class="price1">
+                                    <span class="discount">128,000</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_box"><img src="img/sub/itembox_3.jpg" alt=""></div>
+                            <div class="text_box">
+                                <div class="brandN">eee</div>
+                                <div class="multiline">[단독] 비비 미니백_5COLORS</div>
+                                <div class="price1">
+                                    <span class="discount">160.200</span>
+                                    <span class="base">170,000</span>
+                                    <sapn class="rate">10%</sapn>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_box"><img src="img/sub/itembox_4.jpg" alt=""></div>
+                            <div class="text_box">
+                                <div class="brandN">vunque</div>
+                                <div class="multiline">Toque Hermit Mini Cross<br>(토크 헐밋 미니크로스)_3colors</div>
+                                <div class="price1">
+                                    <span class="discount">165,000</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_box"><img src="img/sub/itembox_5.jpg" alt=""></div>
+                            <div class="text_box">
+                                <div class="brandN">LARTIGENT</div>
+                                <div class="multiline">LQ NET BAG_4COLORS</div>
+                                <div class="price1">
+                                    <span class="discount">33,600</span>
+                                    <span class="base">42,000</span>
+                                    <sapn class="rate">20%</sapn>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_box"><img src="img/sub/itembox_6.png" alt=""></div>
+                            <div class="text_box">
+                                <div class="brandN">JILL BY JILLSTUART</div>
+                                <div class="multiline">[브레드] 체인 미니크로스백<br>7 COLORS</div>
+                                <div class="price1">
+                                    <span class="discount">79,200</span>
+                                    <span class="base">88,000</span>
+                                    <sapn class="rate">10%</sapn>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="tab_item4">
+                    <li><a>DETAIL</a></li>
+                    <li><a>REVIEW(96)</a></li>
+                    <li><a>Q&A(35)</a></li>
+                    <li><a>RETURN & DELIVERY</a></li>
+                </ul>
+
+                <div class="reviewbox">
+                    <div class="review_top1">
+                        <h4>상품 만족도 (96)</h4>
+                        <div class="review_top2">
+                            <div class="review_top2-1">
+                                <p>구매하신 분들의 상품에 대한 평점입니다.</p>
+                                <div class="review_top2-2">
+                                    <div class="iconbox"><img src="img/sub/5star.svg" alt></div>
+                                    <div class="review_top2-3">
+                                        <p>5</p>
+                                        <span> / 5.0</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="review_right">
+                                <div class="right1">
+                                    <h5>사이즈</h5>
+                                    <div class="per">
+                                        <p>적당함</p>
+                                        <div class="bar">
+                                            <span style="width:30%"></span>
+                                        </div>
+                                        <span>30%</span>
+                                    </div>
+
+                                    <div class="per_hilight">
+                                        <p>작　음</p>
+                                        <div class="bar">
+                                            <span style="width:70%"></span>
+                                        </div>
+                                        <span>70%</span>
+                                    </div>
+
+                                    <div class="per">
+                                        <p>큼　　</p>
+                                        <div class="bar">
+                                            <span style="width:0%"></span>
+                                        </div>
+                                        <span>0%</span>
+                                    </div>
+                                </div>
+
+                                <div class="right1">
+                                    <h5>색상</h5>
+                                    <div class="per">
+                                        <p>같　음</p>
+                                        <div class="bar">
+                                            <span style="width:93%"></span>
+                                        </div>
+                                        <span>93%</span>
+                                    </div>
+
+                                    <div class="per_hilight">
+                                        <p>비슷함</p>
+                                        <div class="bar">
+                                            <span style="width:7%"></span>
+                                        </div>
+                                        <span>7%</span>
+                                    </div>
+
+                                    <div class="per">
+                                        <p>다　름</p>
+                                        <div class="bar">
+                                            <span style="width:0%"></span>
+                                        </div>
+                                        <span>0%</span>
+                                    </div>
+                                </div>
+
+                                <div class="right1">
+                                    <h5>착용감</h5>
+                                    <div class="per">
+                                        <p>좋　음</p>
+                                        <div class="bar">
+                                            <span style="width:95%"></span>
+                                        </div>
+                                        <span>95%</span>
+                                    </div>
+
+                                    <div class="per_hilight">
+                                        <p>보　통</p>
+                                        <div class="bar">
+                                            <span style="width:5%"></span>
+                                        </div>
+                                        <span>5%</span>
+                                    </div>
+
+                                    <div class="per">
+                                        <p>나　쁨</p>
+                                        <div class="bar">
+                                            <span style="width:0%"></span>
+                                        </div>
+                                        <span>0%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="photo_review">
+                                <ul class="buyer">
+                                    <li>
+                                        <div class="reviwe_box"><img src="img/sub/photo_review_1.jpg" alt=""></div>
+                                    </li>
+                                    <li>
+                                        <div class="reviwe_box"><img src="img/sub/photo_review_2.jpg" alt=""></div>
+                                    </li>
+                                    <li>
+                                        <div class="reviwe_box"><img src="img/sub/photo_review_4.jpg" alt=""></div>
+                                    </li>
+                                    <li>
+                                        <div class="reviwe_box"><img src="img/sub/photo_review_5.jpeg" alt=""></div>
+                                    </li>
+                                    <li>
+                                        <div class="reviwe_box"><img src="img/sub/photo_review_6.jpeg" alt=""></div>
+                                    </li>
+                                    <li>
+                                        <div class="reviwe_box"><img src="img/sub/photo_review_7.jpeg" alt=""></div>
+                                    </li>
+                                    <li>
+                                        <div class="reviwe_box"><img src="img/sub/photo_review_8.jpeg" alt=""></div>
+                                    </li>
+                                    <li>
+                                        <div class="reviwe_box"><img src="img/sub/photo_review_3.jpeg" alt=""></div>
+                                    </li>
+                                </ul>
+
+                                <ul class="sort">
+                                    <li>최신순</li>
+                                    <li>평점 높은순</li>
+                                    <li>평점 낮은순</li>
+                                    <li>추천순</li>
+                                </ul> 
+                            </div>
+
+                            <div  class="text_reviwe">
+                                <div class="text_reviwe1">
+                                    <table>
+                                        <colgroup>
+                                            <col style="width:10%">
+                                        </colgroup>
+                                        <tr>
+                                            <td class="table1"><img src="img/sub/5star.svg" alt=""></td>
+                                            <td>
+                                                <p>구매옵션: WOOD BROWN</p>
+                                                <div class="table1-1"><img src="img/sub/photo_review_2.jpg" alt=""></div>
+                                                <span>너무 이뻐용 색상도 사진상 똑같고 가죽도 견고해서 오래사용할 정도로 좋아요!</span>
+                                                <div class="tab"> <span>신고 | 숨김</span></div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="table1"><img src="img/sub/5star.svg" alt=""></td>
+                                            <td>
+                                                <p>구매옵션: WOOD BROWN</p>
+                                                <div class="table1-1"><img src="img/sub/photo_review_6.jpeg" alt=""></div>
+                                                <span>진짜 귀염뽀짝 하네요 작지만 품어보겠습니다 사이즈 손바닥만 해요</span>
+                                                <div class="tab"> <span>신고 | 숨김</span></div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="table1"><img src="img/sub/5star.svg" alt=""></td>
+                                            <td>
+                                                <p>구매옵션: WOOD BROWN</p>
+                                                <div class="table1-1"><img src="img/sub/photo_review_8.jpeg" alt=""></div>
+                                                <span>귀엽고 고급스러워 보여요. 카드용 크로스백으로 착용하고 에코백 숄더로 매면
+                                                    될거같아요
+                                                </span>
+                                                <div class="tab"> <span>신고 | 숨김</span></div>
+                                            </td>
+                                        </tr>
+
+                                        
+                                    </table>
+                            </div>
+                            
+                            <ul class="tab_item4">
+                                <li><a>DETAIL</a></li>
+                                <li><a>REVIEW(96)</a></li>
+                                <li><a>Q&A(35)</a></li>
+                                <li><a>RETURN & DELIVERY</a></li>
+                            </ul>
+
+                            <div class="delivery">
+                                <h4>배송/교환/반품/AS 관련 유의사항</h4>
+                                <p>상품상세설명에 배송/교환/반품/취소 관련 안내가
+                                    기재된 경우 다음 안내사항보다 우선 적용됩니다.</p>
+                                <table>
+                                    <colgroup>
+                                        <col style="width:30%">
+                                        <col>
+                                    </colgroup>
+                                    <tr>
+                                        <th><div class="ggg">배송정보</div</th>
+                                        <td>
+                                            <ul>
+                                                <li>▪️상품별로 상품 특성 및 배송지에 따라 배송유형 및 소요기간이 달라집니다.</li>
+                                                <li>▪️일부 주문상품 또는 예약상품의 경우 기본 배송일 외에 추가 배송 소요일이 발생될 수 있습니다.</li>
+                                                <li>▪️동일 브랜드의 상품이라도 상품별 출고일시가 달라 각각 배송될 수 있습니다.</li>
+                                                <li>▪️제주 및 도서산간 지역은 출고, 반품, 교환시 추가 배송비(항공, 도선료)가 부과 될 수 있습니다.</li>
+                                                <li>▪️상품의 배송비는 공급업체의 정책에 따라 다르오며 공휴일 및 휴일은 배송이 불가합니다.</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>취소/반품/교환 안내</th>
+                                        <td>
+                                            <ul>
+                                                <li>▪️회수지 정보 : 경기도 이천시 마장면 프리미엄아울렛로 33-18 이터널그룹 물류센터 / 주식회사 이터널그룹</li>
+                                                <li>▪️동일 브랜드의 상품이라도 교환/반품 회수지가 다를 수 있습니다. 상품상세 정보 또는 회수지 정보를 확인하신 후 반드시 지정된 회수지로 보내주세요.</li>
+                                                <li>▪️상품을 지정된 회수지가 아닌곳으로 보내실 경우 택배 분실 또는 재발송에 따른 추가 비용이 발생할 수 있습니다.</li>
+                                                <li>▪️결제완료 직후 즉시 주문취소는 "MY Page> 취소/교환/반품 신청"에서 직접 처리 가능합니다.</li>
+                                                <li>▪️주문완료 후 재고 부족 등으로 인해 주문 취소 처리가 될 수도 있는 점 양해 부탁드립니다.</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                        
+                                </table>
+                            </div>
+                        </div>
+                </div>
+
+
+
+
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+<!--FOOTER-->  
+    <footer>
+        <div id="footer">
+            <div class="bannerbox">
+                <img src="img/banner_bottom1.png" alt="">
+                <img src="img/banner_bottom2.png" alt="">
+                <img src="img/banner_bottom3.png" alt="">
+            </div>
+        
+            <div class="footerbox1">
+                <div class="button">
+                    <button type="button" class="" data-target=".news">NEWS</button>
+                    <button type="button" class="" data-target=".news">이벤트발표</button>
+                </div>
+                <div class="plus"><img src="img/plus.png" alt=""></div>
+                <div id="f2">
+                    <ul>
+                        <li>▪️[W컨셉]W.LIVE with EXCLUSIVE BRAND 퀴즈이벤트 당첨자 안내</li>
+                        <span>2023-07-28</span>
+                        <li>▪️[W컨셉] FRITUR(프리터) 기대평이벤트 당첨자 안내</li>
+                        <span>2023-07-26</span>
+                        <li>▪️[W컨셉] MAGJAY(매그제이) 포토리뷰 이벤트 당첨자 안내</li>
+                        <span>2023-07-24</span>
+                        <li>▪️[W컨셉] KOTELO(코텔로) 댓글이벤트 당첨자 안내</li>
+                        <span>2023-07-12</span>
+                        <li>▪️[W컨셉] RAIVE(레이브) W.LIVE 당첨자 안내</li>
+                        <span>2023-06-30</span>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footerbox2">
+                <div id="f1">
+                    <p>고객센터</p>
+                    <h1>1566-5027</h1>
+                </div>
+                <div id="f2">
+                    <p>운영시간: 평일09:00~18:00 (점심시간: 12:30~13:30)<br>
+                    cs_help@wconcept.co.kr</p>
+                </div>
+                <div id="f3"><a href="">FAQ</a>></div>
+                <div id="f3-1"><a href="">1:1문의하기</a>></div>
+                <ul>
+                    <li><img src="img/facebook.png" alt=""></li>
+                    <li><img src="img/instagram.png" alt=""></li>
+                    <li><img src="img/pinterest.png" alt=""></li>
+                    <li><img src="img/play.png" alt=""></li>
+                </ul>
+            </div>
+            
+
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+[{
+    "src" : "exclusive1.jpg",
+    "brand_name" : "Febricology",
+    "product_name_1" : "[시즌오프][~7-31까지!",
+    "product_name_2" : "Stripe Half Sleeve Shirt_3color",
+    "price" : "72,250",
+    "button" : "단독"
+},{
+    "src" : "exclusive2.jpg",
+    "brand_name" : "FRITUR",
+    "product_name_1" : "[단독오픈]|[08/24 예약배송]",
+    "product_name_2" : "The Jacket Blue_F232JK01",
+    "price" : "348,000",
+    "button" : "단독"
+},{
+    "src" : "exclusive3.png",
+    "brand_name" : "EENK",
+    "product_name_1" : "[장바구니BEST] 클리어런스 | 기간한정",
+    "product_name_2" : "WOUI Long Sleev Cutout Jersey",
+    "price" : "262,400",
+    "button" : "셀럽착용"
+},{
+    "src" : "exclusive4.jpg",
+    "brand_name" : "P/a by PAUL & ALICE",
+    "product_name_1" : "CHECK LONG DRESS_5COLORS",
+    "product_name_2" : "",
+    "price" : "80,750",
+    "button" : "단독"
+},{
+    "src" : "exclusive5.jpg",
+    "brand_name" : "LE17SEPTEMBRE",
+    "product_name_1" : "[한정특가]SLEEVELESS RIBBED KNIT",
+    "product_name_2" : "CROP TOP[NAVY]",
+    "price" : "111,200",
+    "button" : "단독"
+},{
+    "src" : "exclusive6.jpg",
+    "brand_name" : "JOORTI",
+    "product_name_1" : "[베스트브랜드][72H POP-UP]",
+    "product_name_2" : "[세트] 리본튤립 블라우스",
+    "price" : "100,750",
+    "button" : "예약상품"
+},{
+    "src" : "exclusive7.jpg",
+    "brand_name" : "FLOWOOM",
+    "product_name_1" : "[Blue]S.L Cream S,M,L pink",
+    "product_name_2" : "cup cake dress",
+    "price" : "328,000",
+    "button" : "예약상품"
+},{
+    
+}]

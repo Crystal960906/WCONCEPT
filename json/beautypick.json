@@ -1,0 +1,71 @@
+[{
+    "src" : "beautypick1.jpg",
+    "brand_name" : "Odid",
+    "product_name_1" : "[뷰티특가]",
+    "product_name_2" : "오디드 쿨라임 아크네 클렌징폼",
+    "product_name_3" : "150ml",
+    "price" : "9,900"
+},{
+    "src" : "beautypick2.jpg",
+    "brand_name" : "DEEPERENCE",
+    "product_name_1" : "[뷰티특가]",
+    "product_name_2" : "[선물포장]다크시나몬",
+    "product_name_3" : "헤어 오일 에센스 120ml+스카프 괄사",
+    "price" : "26,910"
+},{
+    "src" : "beautypick3.jpg",
+    "brand_name" : "AIDA",
+    "product_name_1" : "[뷰티특가]",
+    "product_name_2" : "프로폴리스 바이옴 마스크",
+    "product_name_3" : "카밍에너지 3BOX(15매)",
+    "price" : "67,900"
+},{
+    "src" : "beautypick4.jpg",
+    "brand_name" : "milktouch",
+    "product_name_1" : "[뷰티특가]",
+    "product_name_2" : "밀크터치 올데이 슈퍼 멜팅",
+    "product_name_3" : "마스카라 리무버",
+    "price" : "9,900"
+},{
+    "src" : "beautypick5.jpg",
+    "brand_name" : "riempi",
+    "product_name_1" : "[뷰티특가]",
+    "product_name_2" : "리엠피 녹차수 70%",
+    "product_name_3" : "탈모 헤어 토닉 앰플110ml",
+    "price" : "9,900"
+},{
+    "src" : "beautypick6.jpg",
+    "brand_name" : "I'M",
+    "product_name_1" : "[뷰티특가]",
+    "product_name_2" : "마사지젤 아임워터젤",
+    "product_name_3" : "",
+    "price" : "9,900"
+},{
+    "src" : "beautypick7.png",
+    "brand_name" : "pesade",
+    "product_name_1" : "인 하인드사이드 오드 퍼퓸 100ml",
+    "product_name_2" : "",
+    "product_name_3" : "",
+    "price" : "134,000"
+},{
+    "src" : "beautypick8.jpg",
+    "brand_name" : "elop",
+    "product_name_1" : "[뷰티특가]",
+    "product_name_2" : "[1+1]폰드 핸드크림50ml",
+    "product_name_3" : "",
+    "price" : "9,900"
+},{
+    "src" : "beautypick9.jpg",
+    "brand_name" : "FEEV",
+    "product_name_1" : "[뷰티특가]",
+    "product_name_2" : "하이퍼 핏 컬러 드롭(8color)",
+    "product_name_3" : "",
+    "price" : "9,900"
+},{
+    "src" : "beautypick10.jpg",
+    "brand_name" : "One-day's You",
+    "product_name_1" : "[뷰티특가]",
+    "product_name_2" : "프로 바이타 씨 앰플 미스트 100ml",
+    "product_name_3" : "",
+    "price" : "8,910"
+}]

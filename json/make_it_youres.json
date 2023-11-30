@@ -1,0 +1,52 @@
+[{
+    "src": "make it yours1.jpg",
+    "brand_name" : "FRONTROW",
+    "product_name_1" :"[~7/31 오전10시까지!]][23FW 프리오더]" ,
+    "product_name_2" : "[Premium Cashmere-blend<br>Handmade Coat_4color]",
+    "price" : "59,200",
+    "button_1" : "셀럽착용"
+},{
+    "src" : "make it yours2.png",
+    "brand_name" : "SALTWATER SANDAL",
+    "product_name_1" : "[바로배송]",
+    "product_name_2" : "SALT WATER CLASSIC SLIDE-TAN",
+    "price" : "54,400",
+    "button_1" : "쿠폰"
+
+},{
+    "src" : "make it yours3.jpg",
+    "brand_name" : "ourcomos",
+    "product_name_1" : "[23SUMMER][1차:07.28.2차:08/01]",
+    "product_name_2" : "comos 836 neck twisted puff blous",
+    "price" : "64,780",
+    "button_1" : "단독"
+},{
+    "src" : "make it yours4.jpg" ,
+    "brand_name" : "SALTWATER SANDAL",
+    "product_name_1" : "[바로배송]",
+    "product_name_2" : "SALT WATER CLASSIC SLIDE-TAN",
+    "price" : "64,780",
+    "button_1" : "단독"
+},{
+    "src" : "make it yours5.jpg",
+    "brand_name" : "OFFHOUR",
+    "product_name_1" : "[한정특가]",
+    "product_name_2" : "커플 컴포트 세트 파자마 홈웨어",
+    "price" : "20,930",
+    "button_1" : "셀럽착용"
+
+},{
+    "src" : "make it yours6.png",
+    "brand_name" : "KOZNOK",
+    "product_name_1" : "순면 조거 잠옷세트 멜란지",
+    "product_name_2" : "",
+    "price" : "33,535",
+    "button_1" : "단독"
+},{
+    "src" : "make it yours7.jpg" ,
+    "brand_name" : "ULLALA PAJAMAS",
+    "product_name_1" : "[어텀페스타]",
+    "product_name_2" : "델리아 여성페어 크림",
+    "price" : "52,440",
+    "button_1" : "예약상품"
+}]

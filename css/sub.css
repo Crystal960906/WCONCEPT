@@ -1,0 +1,269 @@
+@charset "utf-8";
+* {margin:0; box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif;}
+
+ul,li,ol {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-family: 'Noto Sans KR', sans-serif;
+}
+
+nav {
+        float: left;
+        margin: 50px 0 0 0px;
+}
+
+a {
+        text-decoration: none;
+        color: #666;
+}
+
+    #sub {width:1313px; 
+        height:auto; 
+        margin: 10x 0 0 0; 
+        padding:30px;
+        position: relative;
+        z-index: 1;
+} 
+
+    #submenu {width:1240px; height:50px; background-color:white; }
+    #submenu > ul {width:1240px; height:20px; background-color: white;}
+    #submenu > ul > li {width:70px; height:20px; font-size: 12px; float:left; margin:5px; text-align: center;}
+    #submenu > ul > li:not(:last-child):after{content:">";}
+
+    #contents1 {width:1240px; height:11700px; background-color:white}
+    .main_imgbox {width:525px; height:881px; background-color: white; float: left;}
+    .main_textbox {width:660px; height:980px; background-color: white; float:right;}
+    .bottom_imgbox > img {width:60px; height:80px; background-color: white;opacity:0.5; float: left; margin:10px; display: block;}
+    .about {width:525px; height:50px; background-color: white; display: block; float: left;}
+    .box11 {width:68px; height:20px; background-color: white; font-weight: bold; font-size: 12.63px;}
+    .event > ul {font-size: 14px;}
+    .event > ul > li {float:left; margin:0 20px 0 0; }
+
+    .textbox1 {width:660px; height:783px; background-color: white; float: right;}
+    .textbox2 {width:660px; height:175px; background-color: white; float:right; margin:50px 0 0 0}
+
+    .brand {width:660px; height:42px; background-color: white; float: right;}
+    .brand > a {color:#000; font-weight: bold; font-size: 21px;}
+    .brand > .my_brand {width:100px; height:16px; background-color: white; float: right;}
+
+    .my_brand {font-size: 12px; float: right; font-weight: bold;}
+    .my_brand > em > img {width:16px; height:16px;}
+
+    .product {width:660px; height:60px; background-color: white; float: right;}
+    .product1 {width:660px; height:30px; background-color: white; margin: 3px 0 0 0 ;} 
+    .product1 > a {font-size: 14px; color:#000;}
+
+
+
+    .product2 {width:660px; height:30px; background-color: white;}
+    .product2 > .share {width:24px; height:24px; background-color: white; float:right;}
+
+    .share > img {width:100%; height:100%}
+    .product2 > a {font-size: 14px; color:#000;}
+
+    .star {width:80px; height:20px; background-color: white; float:left; margin:20px 0 0 0;}
+    .icon {width:80px; height:17px; background-color: white;}
+    .icon > img {width:80px; height:17px} 
+
+    .text1 {width:30px; height:20px; background-color: white; float: left; margin:20px 0 0 0;}
+    .text1 > em {font-size: 14px; font-weight: bold;}
+    .review > p {font-size: 11px; width:60px; height:20px; background-color: white; float: left; margin:21px 0 0 0; border-bottom: 1px solid #666;}
+    .review > p > span {font-weight: bold; font-size: 14px;}
+
+
+    .price {width:660px; height:100px; background-color: white; float: right; margin:30px 0 0 0;border-bottom: 2px solid #666;}
+    .price_item > .item1 {font-size: 14px; float: left; margin:0 20px 0 0;}
+    .price_item > .item2 > p {float:left; font-size: 18px; margin:0 0 0 70px; font-weight: bold; text-decoration: line-through; color: #a7a7a7;}
+    .price_item > .item2 > span {font-size:14px;}
+    .price_item > .item3 {font-size: 14px; float: left;}
+    .price_item > .item3 > .iconbox {float: left}
+    .price_item > .item4 > p {float:left; font-size: 18px; margin:0 0 0 47px; font-weight: bold;}
+    .price_item > .item4 > span {font-size:14px;}
+    .price_item > .item4 > span:after{content:"15%"; color:#fa5500;; font-size:18px; font-weight:bold; margin: 0 0 0 7px;}
+    .iconbox {width:15px; height:15px; background-color: white; float:left;}
+    .iconbox > img {width:100%; height:100%;}
+    .price > button {width:100px; height:38px; background-color: transparent; float:right; border:1px solid#666;cursor: pointer;}
+    .price > button > img {width:13px; height:13px; margin:0 0 0 5px;}
+
+    .benefit {width:660px;height:160px; background-color: white;float:right; margin:20px 0 0 0; border-bottom: 1px solid #666;}
+    .benefit1 {width:660px; height:35px; background-color: white;}
+    .item1 {font-size:14px;background-color: white;display:block; float:left; margin:0 30px 0 0}
+    .benefit1 > .item2 {background-color: white; display:inline-block; font-size: 16px;}
+    .benefit1 > .item2 > span {color:#666; font-size: 12px; margin: 0 0 0 20px;}
+    .benefit2 {width:660px; height:46px; background-color: white;}
+    .benefit2 > .item3 {font-size:14px;background-color: white; display:block; float:left; margin:0 30px 0 0}
+    .benefit2 > .item4 > p {color:#666; font-size: 12px; margin: 3px 0 0px 33px; float: left;} 
+    .benefit2 > .item4 > p > span {color:#fa5500; font-size: 15px; margin:10px; }
+    .benefit2 > .item4 > em {font-size: 12px;background-color: white; margin: 50px 0 0 120px;}
+    .benefit_btn {font-size: 12px; float: right; text-decoration: underline; color: #666;cursor: pointer;}
+
+    .card_info {width:660px; height:135px; background-color: white; float:right;}
+    table {width: 500px; height:135px; float: left;}
+    tr, td {width:10px; font-size: 13px; }
+
+    .card1 {width:32px;}
+    .card1 > td {float: left;}
+    .btn1 {background-color:transparent; border: 1px solid  #a7a7a7; width:82px; height:21px; line-height:3px;cursor: pointer;}
+    .btn2 {background-color:transparent; border: 1px solid  #a7a7a7; width:85px; height:21px; line-height:3px;cursor: pointer;}
+    .btn3 {background-color:transparent; border: 1px solid  #a7a7a7; width:50px; height:21px; line-height:3px;cursor: pointer;;}
+
+    .option {width:660px; height:90px; background-color: white; float:left;}
+    .option > span {text-align: right;width:100%; height:18px; font-size: 12px;text-decoration: underline;color: #666; display:block; background-color: white; float:right;}
+    .option1 {width:125px; height:50px; background-color: white; float: left;} 
+    .option1 > span {font-size: 13px; text-align: center; margin: 20px 0 0 0px; float: left;} 
+    .option2 {width:535px; height:50px; background-color:white ;font-size: 13px; float: left;}
+    .option2 > select  {width:500px; height:41px; background-color: white; float: left; margin: 5px 0 5px 35px;}
+    .title {display: none;}
+
+    .grup {width:660px; height:108px; background-color: white; float:left;}
+    .grup1 {width:240px; height:70px; background-color:white; border: 1px solid #000; float: left; margin: 0 10px 0 0;
+        font-size: 20px; text-align: center;line-height: 68px; font-weight: bold; cursor: pointer;}
+    .grup2 {width:240px; height:70px; background-color:black;float: left; border: 1px solid #000; margin: 0 20px 0 0;
+        font-size: 20px; text-align: center;line-height: 68px;font-weight: bold; color:white;cursor: pointer;}
+    .grup3 {width:70px; height:70px; background-color: #fa5500; float: left; margin:0 5px 0 0px; font-size: 13px;
+        text-align: center;border: 1px solid #a7a7a7; color: white; font-weight: bold;cursor: pointer;}
+    .grup3 > img {width:40px; height:40px; margin:0 0 5px 0;}
+    .grup4 {width:70px; height:70px; background-color: white; float: left; margin:0 5px 0 0px;
+        font-size: 13px; text-align: center;border: 1px solid #a7a7a7; color:#666;cursor: pointer;
+        font-weight: bold;}
+    .grup4 > img {width:40px; height:40px; margin:0 0 5px 0;}
+
+    .cottonusa {width:660px; height:135px; background-color: #f8f8f8; }
+    .cottonusa th{background-color: white; float:left; margin:0 0 30px 0}
+    td { padding: 6px;}
+    
+    .pdt_side {width:1240px; height:260px; background-color: white;float:left; }
+    .pdt1 {width:1240px; height:26px;background-color: white; float: left; display:block; }
+    .pdt1 > .iconbox {width:20px; height:20px; float: left; margin: 0 0 0 10px;}
+    .pdt1 > .iconbox > img {width:100%; height:100%}
+    h4 {font-size: 18px; font-weight: bold; float: left;}
+    .pdt2 {
+        width:1240px; 
+        height:190px; 
+        background-color: white; 
+        margin: 55px 0 0 0
+    }
+    
+    .pdt2 > ul > li {
+        width:135px; 
+        height:180px; 
+        background-color: white; 
+        float: left; 
+        margin: 5px 10px;
+    }
+
+    .pdt2 > ul > li > img {
+        width:100%; 
+        height:100%; 
+        overflow:hidden; 
+        float: left;
+        cursor: pointer;
+    }
+
+    .tab_item {width:1240px; height:62px; background-color: white; margin:100px 0 0 0;}
+    .tab_item > ul > li {width:310px; height:62px; background-color: white; float: left; border: 1px solid #a7a7a7;
+    font-size:18px; text-align: center;line-height:50px;}
+
+    .marketing > .imgbox1 {width:900px; height:7365px; float:left; background-color:white; margin: 0 0 0 170px;}
+    .marketing > .imgbox1 > img {width:100%; height:100%}
+
+    .noti {width:1240px; height:420px; background-color: white; float:left;}
+    .noti > h4 {width:100%; height:42px; ;background-color: white; font-size:14px;border-bottom: 2px solid #666;}
+    .noti > table  {width: 1240px; height:190px; background-color:white; line-height: 30px;}
+    .noti > table > tr,td {font-size:12px;}
+    .noti > table  td {padding:3px 4px; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#ccc;}
+    .noti > p {font-size:14px;  color:#9d9d9d; line-height: 50px;} 
+    .noti > button {width:333px; height:48px; background-color: transparent;display: inline-block
+;line-height: 48px; border: 1px solid#000; font-size:15px; font-weight:500; float:left; margin:30px 0 0 450px;}
+    .noti > button > span {display: inline-block; position: relative;padding-right: 26px;}
+    .noti > button > span:after {content:'';display:inline-block; width:22px; height:22px;
+    background: url(img/sub/ico_arrow_dn.svg)0 0 no-repeat; background-size:contain;
+position: absolute; right:0; top:23%;}
+
+    .item_6box {width:1240px; height:560px; background-color: white; float: left;}
+    .item_6box > h4 {font-size: 18px; float: left; margin: 0 0 0 13px; } 
+    .item_6box > ul {margin:30px 0 0 5px;}
+    .item_6box > ul > li {width:195px; height:486px; background-color: white; float: left; margin:5px;} 
+    .img_box {width:195px; height:260px; background-color: #a7a7a7;}
+    .img_box > img {width:100%; height:100%;cursor: pointer;}
+    .text_box {width:195px; height:210px; background-color: white; position: relative;}
+    .text_box > .brandN {font-size:14px; line-height: 16px;font-weight: bold;cursor: pointer;}
+    .text_box > .multiline {font-size: 12px; line-height: 16px; margin-bottom: 16px; margin-top:8px;
+        color:#777;cursor: pointer;}
+    .text_box > .price1
+    {position: relative; line-height: normal; margin-bottom: 14px; align-items: baseline;
+    width:185px; height:23px; background-color: white; position: absolute; top:80px; }
+    .price1 > .discount {font-size:16px; color:#333; margin-right:4px; font-weight: bold;cursor: pointer;}
+    .price1 > .base {font-size: 12px; color:#aaa; text-decoration: line-through;}
+    .price1 > .rate {position: absolute; top:0; right:0; font-size:16px; color:#ff4000; font-weight: bold;} 
+
+    .tab_item4 {width:1240px; height:62px; float: left;
+    margin-top:80px; border-bottom: 2px solid #000}
+    .tab_item4 > li {width:308px; height:57px; background-color:#fff; float: left; margin:1px; cursor: pointer;
+    position: relative; }
+    .tab_item4 > li:first-child{border-left-width:1px;}
+    .tab_item4 > li > a {display:block; height:57px; color:#333; font-size:18px; text-align: center; line-height:57px;}
+
+    .reviewbox {width:1240px; height:1900px; background-color: white; float: left; margin-bottom: 50px;}
+    .review_top1 > h4 {font-size:18px; line-height:26px; margin:40px 0 8px 0; font-weight:bold;} 
+    .review_top2 {width:1240px; height:146px; background-color: white; float: left;}
+    .review_top2-1 {width:310px; height:88px; background-color: white; float:left;}
+    .review_top2-1 > p {float:left; font-size:14px; line-height: 20px; color:#666; margin-bottom: 38px;}
+    .review_top2-2 {width:312px; height:30px; background-color:white; float:left;}
+    .review_top2-2 > .iconbox {width:180px; height:30px;}
+    .review_top2-2 > .iconbox > img {width:100%; height:100%}
+    .review_top2-3 {width:110px; height:30px; background-color: white; float: right;}
+    .review_top2-3 > p {font-size: 36px; line-height: 30px; float:left;} 
+    .review_top2-3 >  span {font-size:36px; line-height: 30px;  float: left;color:#a4a4a4; }
+
+    .review_right {width:828px; height:112px; background-color: white; float:right;}
+    .right1 {width:236px; height:112px; background-color: white; float: left; margin-left:40px;text-align: left;} 
+    .right1 > h5 {font-size:14px; line-height: 19px; color:#808080;}
+    .per {width:236px; height:19px; background-color: white; margin-top: 12px; vertical-align: middle;}
+    .per > p {font-size:14px; display: inline-block; line-height: 19px; float: left;}
+    .per > .bar {width:140px; height:4px;border-radius: 4px; background-color:#e6e6e6; float: left; margin: 6px 0 0 10px;}
+    .per > .bar > span {width:30px; display: block; border-radius: 4px; height: 100%; background-color: #bfbfbf;}
+    .per > span {width:42px; font-size: 14px; line-height: 19px; margin: 0 0 0 10px;}
+
+    .per_hilight {width:236px; height:19px; background-color: white; margin-top: 12px;}
+    .per_hilight > p {font-size:14px; display: inline-block; line-height: 19px; float: left;}
+    .per_hilight > .bar {width:140px; height:4px;border-radius: 4px; background-color:#e6e6e6; float: left; margin: 6px 0 0 10px;}
+    .per_hilight > .bar > span {width:30px; display: block; border-radius: 4px; height: 100%; background-color: #bfbfbf;}
+    .per_hilight > span {width:42px; font-size: 14px; line-height: 19px; margin: 0 0 0 10px;}
+    .per_hilight > span {width:42px; font-size: 14px; line-height: 19px; margin: 0 0 0 10px;}
+
+    .photo_review {width:1240px; height:148px; background-color: white; float:left; margin:80px 0 0 0; }
+    .photo_review > ul {margin:0 0 0 1px;}
+    .buyer >  li {width:148px; height:148px; background-color: white; float: left; margin:3px;}
+    .reviwe_box {width:148px; height:148px;}
+    .reviwe_box > img {width:100%; height:100%;}
+
+    .sort {width:1240px; height:20px; float: left; line-height:100px;}
+    .sort > .divde {position: relative; display: inline-block; vertical-align: middle; background-color:white;float: left;}
+    .sort > li {float: left; font-size: 14px; color:#808080;}
+    .sort > li:not(:last-child):after{content:"|"; margin: 10px; color:#808080; }
+
+    .text_reviwe1 > table  {width: 1240px; height:750px; background-color:white; margin: 80px 0 0 0;
+    border-top:2px solid #171717;
+    border-bottom: 1px solid #171717;
+    margin-bottom: 60px;;}
+    .text_reviwe1 > table > tr,td {font-size:12px;}
+    .text_reviwe1 > table  td {padding:3px 4px; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#ccc;}
+
+    .text_reviwe1 > table  tr >.table1 > img  {width:130px; height:16px; background-color: white; margin: 10px 0 0 0;}
+    .text_reviwe1 > table  td > p {color:#777; font-size:14px; line-height: 50px;}
+    .text_reviwe1 > table  td > span {float: left; font-size: 14px; width:100%; line-height: 45px;;}
+    .text_reviwe1 > table  td >.tab {font-size: 14px; color:#777; float: left; margin:20px 0 0 0;}
+    .table1-1 {width: 100%; height:100px; background-color: transparent; float: left;}
+    .table1-1 > img {width:100px; height:100%;}
+
+    .delivery {width:1240px; height:400px; background-color: white; float: left;}
+    .delivery > h4 {font:18px; width: 100%; float: left; margin:30px 0 10px 0 }
+    .delivery > p {color:black; font-size:14px; width: 100%; float: left;line-height: 30px;}
+    .delivery > table {border-bottom: 1px solid #d5d5d5; border-top:1px solid #d5d5d5; width:100%}
+    .delivery > table td {border-top:1px solid #d5d5d5;}
+    .delivery > table th {font-size: 16px; background-color:#fafafa;} 
+
+    .delivery > table td > ul > li {font-size: 12px; line-height: 18px;
+        position: relative; padding-left:12px; margin-bottom: 7px;list-style: none;}
